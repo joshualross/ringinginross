@@ -66,6 +66,3 @@ class RSVPService(object):
         with connection as cursor:
             cursor.execute(query, params)
             return cursor.rowcount
-
-
-

@@ -13,37 +13,45 @@ Below there are some brief notes about setting up the application on my webhost.
 
 Installing virtualenv
 =====================
-
 download the tgz file and unpack
 use it to create a virtualenv
-  python virtualenv.py env
+
+    python virtualenv.py env
+
 access the virtualenv
-  source env/bin/activate
+
+    source env/bin/activate
+
 upgrade pip
-  easy_install pip
+
+    easy_install pip
 
 
 
 Install/Upgrade python
 ======================
-
 download the tgz file
 unpack the file
 configure the install to deploy into the previously created virtualenv
-  ./configure --prefix=/path/to/virtual/env/
-  make
-  make install
+
+    ./configure --prefix=/path/to/virtual/env/
+    make
+    make install
 
 Create virtual env for application
 ==================================
-
 access the virtualenv created above
 ensure the python 2.7 exists there
-  python --version
+
+    python --version
+
 install virtualenv inside the virtualenv (inception)
-  pip install virtualenv
+
+    pip install virtualenv
+
 create a new virtualenv for the app specifying python 2.7
-  virtualenv path/to/virtual/env -p env/bin/python2.7 --prompt="(application)"
+
+    virtualenv path/to/virtual/env -p env/bin/python2.7 --prompt="(application)"
 
 
 Configure web server
@@ -81,12 +89,14 @@ Create an application.fcgi that serves the app in the virtual env
 Create softlinks to the assets
 ==============================
 Create some symlinks from the webserver root
+
     ln -s /path/to/the/application/views/assets
     ln -s /path/to/the/application/views/images
 
 Deploy the application
 ======================
 The python egg needs rebuilt in order to deploy changes to the application
+
     cd /path/to/the/application
     source env/bin/activate
     python setup.py install

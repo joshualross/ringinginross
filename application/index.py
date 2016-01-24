@@ -24,16 +24,3 @@ def lookup():
 def rsvp():
 
     return {'message': 'OK'}
-
-# @route('/hello/<name>')
-# def hello(name='World'):
-#     return template('<b>Hello {{name}}</b>!', name=name)
-
-# @route('/assets/<filepath:path>')
-# def serve_assets(filepath):
-#     return static_file(filepath, root='/home/ringingi/ringinginross/application/views/assets/')
-#
-# @route('/images/<filepath:path>')
-# def server_images(filepath):
-#     return filepath
-#     # return static_file(filepath, root='/home/ringingi/ringinginross/application/views/images/')
