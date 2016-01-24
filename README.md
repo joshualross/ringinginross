@@ -6,8 +6,6 @@ that are available for setting up and working in web applications.  Those includ
  - oursql
 
 
-
-
 Below there are some brief notes about setting up the application on my webhost.
 
 

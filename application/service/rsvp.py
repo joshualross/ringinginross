@@ -10,11 +10,10 @@ class RSVPService(object):
 
     @staticmethod
     def search_by_name(first_name, last_name):
-
         query = "SELECT uuid FROM guest WHERE first_name LIKE ? AND last_name LIKE ?"
 
         with connection as cursor:
-            cursor.execute(query, ("%{}%".format(first_name), "%{}%".format(last_name)))
+            cursor.execute(query, ("{}%".format(first_name), "{}%".format(last_name)))
             row = cursor.fetchone()
 
         return row[0] if row else None
@@ -22,6 +21,11 @@ class RSVPService(object):
 
     @staticmethod
     def fetch(uuid):
+        """Fetch a guest by uuid from the database.
+
+        :param str uuid:
+        :rtype: GuestEntity
+        """
         entity = GuestEntity()
         fields = entity.get_schema_fields()
         query = "SELECT {fields} FROM guest WHERE uuid = ?".format(

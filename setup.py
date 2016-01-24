@@ -1,6 +1,6 @@
 #!python
 
-from distutils.core import setup
+from setuptools import setup, find_packages
 
 setup(name='Ringing In Ross',
       version='0.1',
@@ -8,6 +8,8 @@ setup(name='Ringing In Ross',
       author='Joshua Ross',
       author_email='joshualross@gmail.com',
       url='https://www.ringinginross.com/',
-      packages=['application'],
-      package_dir={'application': 'application'},
+      packages=find_packages(),
+      # package_dir={'application': 'application'},
+
+      # data_files=[('config', ['application/config/base.yaml'])],
 )
