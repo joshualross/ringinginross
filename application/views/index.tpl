@@ -12,6 +12,8 @@
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="images/favicon.ico" type="image/x-icon">
 	</head>
 	<body>
 
@@ -33,11 +35,17 @@
 				</header>
 				<p>
 					In Sonoma County, California at <a href="#vintners" class="scrolly-middle">Vintners Inn</a><br />
-					&#10024; Saturday, December 31st, 2016 6:30PM to 12:30AM &#10024;<br />
-					Dress to Impress in Cocktail Attire
+					&#10024; Saturday, December 31st, 2016 6:30PM to 12:30AM &#10024;
+				</p>
+				<br/>
+				<p>
+					Dress to Impress<br/>
+					Women in full-length gowns or cocktail dresses<br/>
+					Men in darker color suits or black for your core pieces
 				</p>
 				<footer>
-					<a href="#rsvp" class="button style2 scrolly">RSVP Here</a>
+					<!-- <a href="#rsvp" class="button style2 scrolly">RSVP Here</a> -->
+					RSVP coming soon!
 				</footer>
 			</section>
 
@@ -48,18 +56,25 @@
 					<header>
 						<h2>How We Met</h2>
 					</header>
-					<p>It happened to be the last game of the 2012 World Series when we first met where we found ourselves at the same bar to watch all the action. We were introduced by our mutual friend who invited us to come out. We hit it off almost immediately- that is until after Josh stopped smelling Eunice’s hair.</p>
+					<p>
+						It happened to be the last game of the 2012 World Series when we first met where we found ourselves at the same bar to watch all the action.
+						We were introduced by our mutual friend who invited us to come out. We hit it off almost immediately- that is until after Josh stopped smelling Eunice’s hair.
+					</p>
 				</div>
 			</article>
 
 		<!-- Feature 2 -->
-			<article id="second" class="container box style1 left">
+			<article id="second" class="container box style1 left group">
 				<span class="image fit proposal"><img src="images/pic02.jpg" alt="" /></span>
 				<div class="inner">
 					<header>
 						<h2>The Proposal</h2>
 					</header>
-					<p>It was a warm July day in Park City Utah when Josh planned a hike to Lake Blanche, a beautiful mountaintop lake where the trail climbs over 2,700 feet in 3 miles. Needless to say, Eunice was not a fan. There were talks that she'd received a "snicker bar" as a reward from the grueling hike.</p>
+					<p>
+						It was a warm July day in Park City Utah when Josh planned a hike to Lake Blanche, a beautiful mountaintop lake where the trail climbs over 2,700 feet in 3 miles.
+						Needless to say, Eunice was not a fan. There were talks that she'd received a "snicker bar" as a reward from the grueling hike.
+						In the end, there was a memorable proposal complete with a picturesque backdrop.
+					</p>
 				</div>
 			</article>
 
@@ -71,67 +86,154 @@
 				</header>
 				<div class="inner gallery">
 					<div class="row 0%">
-						<div class="3u 12u(mobile)"><a href="images/fulls/jerall.jpg" class="image fit"><img src="images/thumbs/01.jpg" alt="" title="Jerall" /></a></div>
-						<div class="3u 12u(mobile)"><a href="images/fulls/05.jpg" class="image fit"><img src="images/thumbs/05.jpg" alt="" title="Christine" /></a></div>
+						<div class="3u 12u(mobile)">
+							<a href="images/fulls/jerall.png" class="image fit"><img src="images/thumbs/jerall.png" alt="" title="Jerall" />Jerall</a>
+						</div>
+						<div class="3u 12u(mobile)">
+							<a href="images/fulls/christine.png" class="image fit"><img src="images/thumbs/christine.png" alt="" title="Christine" />Christine</a>
+						</div>
 					</div>
 					<div class="row 0%">
-						<div class="3u 12u(mobile)"><a href="images/fulls/05.jpg" class="image fit"><img src="images/thumbs/05.jpg" alt="" title="Vera" /></a></div>
-						<div class="3u 12u(mobile)"><a href="images/fulls/lackey.jpg" class="image fit"><img src="images/thumbs/03.jpg" alt="" title="Jon L" /></a></div>
+						<div class="3u 12u(mobile)">
+							<a href="images/fulls/lackey.png" class="image fit"><img src="images/thumbs/lackey.png" alt="" title="Jon L" />Jon L</a>
+						</div>
+						<div class="3u 12u(mobile)">
+							<a href="images/fulls/vera.png" class="image fit"><img src="images/thumbs/vera.png" alt="" title="Vera" />Vera</a>
+						</div>
 					</div>
 					<div class="row 0%">
-						<div class="3u 12u(mobile)"><a href="images/fulls/06.jpg" class="image fit"><img src="images/thumbs/06.jpg" alt="" title="April" /></a></div>
-						<div class="3u 12u(mobile)"><a href="images/fulls/trey.jpg" class="image fit"><img src="images/thumbs/02.jpg" alt="" title="Trey" /></a></div>
+						<div class="3u 12u(mobile)">
+							<a href="images/fulls/trey.png" class="image fit"><img src="images/thumbs/trey.png" alt="" title="Trey" />Trey</a>
+						</div>
+						<div class="3u 12u(mobile)">
+							<a href="images/fulls/april.png" class="image fit"><img src="images/thumbs/april.png" alt="" title="April" />April</a>
+						</div>
 					</div>
 					<div class="row 0%">
-						<div class="3u 12u(mobile)"><a href="images/fulls/jon.jpg" class="image fit"><img src="images/thumbs/04.jpg" alt="" title="Jon K" /></a></div>
-						<div class="3u 12u(mobile)"><a href="images/fulls/07.jpg" class="image fit"><img src="images/thumbs/07.jpg" alt="" title="Christena" /></a></div>
+						<div class="3u 12u(mobile)">
+							<a href="images/fulls/kishpaugh.png" class="image fit"><img src="images/thumbs/kishpaugh.png" alt="" title="Jon K" />Jon K</a>
+						</div>
+						<div class="3u 12u(mobile)">
+							<a href="images/fulls/christena.png" class="image fit"><img src="images/thumbs/christena.png" alt="" title="Christena" />Christena</a>
+						</div>
 					</div>
 					<div class="row 0%">
-						<div class="3u 12u(mobile)"><a href="images/fulls/ned.jpg" class="image fit"><img src="images/thumbs/04.jpg" alt="" title="Ned" /></a></div>
-						<div class="3u 12u(mobile)"><a href="images/fulls/08.jpg" class="image fit"><img src="images/thumbs/08.jpg" alt="" title="Rohei" /></a></div>
+						<div class="3u 12u(mobile)">
+							<a href="images/fulls/ned.png" class="image fit"><img src="images/thumbs/ned.png" alt="" title="Ned" />Ned</a>
+						</div>
+						<div class="3u 12u(mobile)">
+							<a href="images/fulls/rohei.png" class="image fit"><img src="images/thumbs/rohei.png" alt="" title="Rohei"/>Rohei</a>
+						</div>
 					</div>
 				</div>
 			</article>
 
+			<section id="accommodations" class="container box style2">
+				<header>
+					<h2>Accommodations</h2>
+				</header>
+			</section>
+
 			<!-- Feature 3 -->
-			<article id="vintners" class="container box style1 right">
-				<span class="image fit"><img src="images/pic03.jpg" alt="" /></span>
+			<article id="best-western" class="container box style1 left group">
+				<span class="image fit"><img src="images/pic04.jpg" alt="" /></span>
 				<div class="inner">
 					<header>
-						<h2>Vintners Inn</h2>
+						<h2><a href="http://book.bestwestern.com/bestwestern/US/CA/Santa-Rosa-hotels/BEST-WESTERN-PLUS-Wine-Country-Inn---Suites/Hotel-Overview.do?propertyCode=05685" target="_blank">
+							Best Western Wine Country Inn
+						</a></h2>
 					</header>
 					<p>
-						<a href="http://www.vintnersinn.com/" target="_blank">Vintners Inn</a>
-						two-night minimum
-						NO pets allowed
+						We’ve reserved a block of rooms at a rate of $99.99 plus tax. Please reference or enter the code Tanos-Ross Wedding when booking.
+						In order to secure the discounted rate, please book by November 15th.
+						No minimum night stay and pets allowed, <a href="https://goo.gl/maps/3oejWAxPjm32" target="_blank">2.4 miles away</a>.
 					</p>
 				</div>
 			</article>
+
+			<article id="vintners" class="container box style1 right group">
+				<span class="image fit"><img src="images/pic03.jpg" alt="" /></span>
+				<div class="inner">
+					<header>
+						<h2><a href="http://www.vintnersinn.com/" target="_blank">Vintners Inn</a></h2>
+					</header>
+					<p>
+						The ceremony and reception will take place here.
+						We’ve reserved a block of rooms at a rate of $280-$400 per night plus tax (two night minimum stay).
+						<!--The ceremony and reception will take place here so if you are looking for a mini getaway and something conveniently located,-->
+						<!--we suggest booking this location.  -->
+						Rooms can be reserved by calling 800-421-2584 and referencing the Tanos/Ross Wedding.
+					</p>
+				</div>
+			</article>
+
+			<article id="airbnb" class="container box style1 left group">
+				<span class="image fit"><img src="images/pic06.jpg" alt="" /></span>
+				<div class="inner">
+					<header>
+						<h2><a href="https://www.airbnb.com/s/Santa-Rosa--CA--United-States?checkin=12%2F30%2F2016&checkout=01%2F01%2F2017&guests=4&zoom=12&search_by_map=true&sw_lat=38.38530712647014&sw_lng=-122.89298415335907&ne_lat=38.59586314422703&ne_lng=-122.64304518851532&ss_id=iigx3d4j&s_tag=SP9Hi-_P" target="_blank">Airbnb</a></h2>
+					</header>
+					<p>
+						You’re welcome to rent a place in the Santa Rosa Area through Airbnb, there are plenty within
+						a 15 mile radius of <a href="https://goo.gl/maps/b9K2ZJzQ8Bt" target="_blank">the venue</a>.  When
+						you RSVP, please let us know if you decide to go this route.
+					</p>
+				</div>
+			</article>
+
+			<article id="hilton" class="container box style1 right group">
+				<span class="image fit"><img src="images/pic05.jpg" alt="" /></span>
+				<div class="inner">
+					<header>
+						<h2><a href="http://www.hiltonsonomahotel.com/" target="_blank">Hilton Sonoma Hotel</a></h2>
+					</header>
+					<p>
+						There are some rooms at a rate of $116 plus tax per room. Please reference or select
+						<a href="http://www.hiltonsonomahotel.com/sonoma-hotel-group-bookings.shtml" target="_blank">Courtesy Social Rate</a> when booking.
+						No minimum night stay and pets allowed, <a href="https://goo.gl/maps/N9gSpMa2WZ42" target="_blank">2.8 miles away</a>.
+					</p>
+				</div>
+			</article>
+
+			<article id="registry" class="container box style3">
+				<header>
+					<h2><a href="https://www.honeyfund.com/wedding/Ringinginross" target="_blank">Registry</a></h2>
+				</header>
+				<p>
+					We are very grateful to have everything we need for our home together.
+					So in lieu of traditional housewares we hope you enjoy browsing
+					<a href="https://www.honeyfund.com/wedding/Ringinginross" target="_blank">our "experience" registry</a>.
+					We are headed to the Philippines and Australia for our honeymoon!
+				</p>
+			</article>
+
 
 		<!-- Contact -->
 			<article id="rsvp" class="container box style3">
 				<header>
 					<h2>RSVP</h2>
 					<p>
-						Please RSVP by Thanksgiving Day, Thursday November 24, 2016.<br />
+						Check back soon to RSVP!<br/>
+						<!--Please RSVP by Thanksgiving Day, Thursday November 24, 2016.<br />-->
 						We look forward to celebrating with you!<br/>
-						Please fill out the form below to RSVP.
+
+						<!--Please fill out the form below to RSVP.-->
 					</p>
 				</header>
-				<form method="post" action="/rsvp">
-					<div class="row 50%">
-						<div class="6u 12u$(mobile)"><input type="text" class="text" name="first_name" placeholder="First Name" /></div>
-						<div class="6u$ 12u$(mobile)"><input type="text" class="text" name="last_name" placeholder="Last Name" /></div>
-						<div class="12u$">
-							<textarea name="message" placeholder="Message"></textarea>
-						</div>
-						<div class="12u$">
-							<ul class="actions">
-								<li><input type="submit" value="Next" /></li>
-							</ul>
-						</div>
-					</div>
-				</form>
+				<!--<form method="post" action="/rsvp">-->
+					<!--<div class="row 50%">-->
+						<!--<div class="6u 12u$(mobile)"><input type="text" class="text" name="first_name" placeholder="First Name" /></div>-->
+						<!--<div class="6u$ 12u$(mobile)"><input type="text" class="text" name="last_name" placeholder="Last Name" /></div>-->
+						<!--<div class="12u$">-->
+							<!--<textarea name="message" placeholder="Message"></textarea>-->
+						<!--</div>-->
+						<!--<div class="12u$">-->
+							<!--<ul class="actions">-->
+								<!--<li><input type="submit" value="Next" /></li>-->
+							<!--</ul>-->
+						<!--</div>-->
+					<!--</div>-->
+				<!--</form>-->
 			</article>
 
 		<!-- Generic -->
@@ -292,19 +394,19 @@
 		-->
 
 		<section id="footer">
-			<ul class="icons">
+			<!-- <ul class="icons">
 				<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
 				<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
 				<li><a href="#" class="icon fa-google-plus"><span class="label">Google+</span></a></li>
 				<li><a href="#" class="icon fa-pinterest"><span class="label">Pinterest</span></a></li>
 				<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
 				<li><a href="#" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
-			</ul>
-			<!--<div class="copyright">-->
-				<!--<ul class="menu">-->
-					<!--<li>&copy; joshualross.us. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>-->
-				<!--</ul>-->
-			<!--</div>-->
+			</ul> -->
+			<div class="copyright">
+				<ul class="menu">
+					<li>&copy; joshualross.us. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+				</ul>
+			</div>
 		</section>
 
 		<!-- Scripts -->

@@ -1,9 +1,3 @@
-database:
-  host: localhost
-  port: 9999
-  user: some-username
-  passwd: not-a-password
-  db: some-database
 logging:
   version: 1
   formatters:

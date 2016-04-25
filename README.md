@@ -24,8 +24,6 @@ upgrade pip
 
     easy_install pip
 
-virtualenv --system-site-packages --prompt="(application)" -p /usr/bin/python2.7 env
-
 
 
 Install/Upgrade python
