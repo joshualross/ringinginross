@@ -8,49 +8,17 @@ that are available for setting up and working in web applications.  Those includ
 
 Below there are some brief notes about setting up the application on my webhost.
 
-
-Installing virtualenv
-=====================
-download the tgz file and unpack
-use it to create a virtualenv
-
-    python virtualenv.py env
-
-access the virtualenv
-
-    source env/bin/activate
-
-upgrade pip
-
-    easy_install pip
-
-
-
-Install/Upgrade python
-======================
-download the tgz file
-unpack the file
-configure the install to deploy into the previously created virtualenv
-
-    ./configure --prefix=/path/to/virtual/env/
-    make
-    make install
-
 Create virtual env for application
 ==================================
-access the virtualenv created above
-ensure the python 2.7 exists there
+create a new virtualenv for the app specifying python 2.7 and using system site packages
 
-    python --version
+    virtualenv --system-site-packages --prompt="(application)" -p /usr/bin/python2.7 env
 
-install virtualenv inside the virtualenv (inception)
+Install the requirements for application
+========================================
+To install the application packages use the `-I` switch to pull in system wide installed packages.
 
-    pip install virtualenv
-
-create a new virtualenv for the app specifying python 2.7
-
-    virtualenv path/to/virtual/env -p env/bin/python2.7 --prompt="(application)"
-
+    pip install -Ir requirements.txt 
 
 Configure web server
 ====================
