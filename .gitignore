@@ -63,3 +63,4 @@ target/
 *.sql
 .idea
 secrets.yaml
+*.swp
