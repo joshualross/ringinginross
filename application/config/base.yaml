@@ -1,9 +1,9 @@
 database:
   host: localhost
-  port: 3306
-  user: ringingi_prod
-  passwd: hYVaMHeE8LDaHZ8qJfgeZfCuqrvgSZrT
-  db: ringingi_prod
+  port: 9999
+  user: some-username
+  passwd: not-a-password
+  db: some-database
 logging:
   version: 1
   formatters:
