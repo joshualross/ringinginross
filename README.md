@@ -16,9 +16,9 @@ create a new virtualenv for the app specifying python 2.7 and using system site 
 
 Install the requirements for application
 ========================================
-To install the application packages use the `-I` switch to pull in system wide installed packages.
+To install the application packages use the `--user` switch to pull in system wide installed packages.
 
-    pip install -Ir requirements.txt 
+    pip install --user -r requirements.txt 
 
 Configure web server
 ====================
